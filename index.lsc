@@ -1,0 +1,17 @@
+import express from 'express'
+import fetch from 'node-fetch'
+
+
+razziNet() -/>
+  response <- fetch('http://abuissa.net')
+  <- response.text()
+
+app = express()
+
+
+app.get('/', (req, res) -/>
+  res.send(<- razziNet())
+)
+
+
+app.listen(8000)

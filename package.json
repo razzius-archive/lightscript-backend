@@ -1,0 +1,22 @@
+{
+  "name": "lightscript-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.lsc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "babel-node index.lsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-lightscript": "^0.2.1",
+    "eslint": "^3.18.0",
+    "lightscript-eslint": "^0.2.2"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-fetch": "^1.6.3"
+  }
+}
